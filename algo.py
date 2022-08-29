@@ -60,7 +60,7 @@ def get_chart(currency_pair):
 # Alerts
 def send_alert(msg):
     # Post the message to endpoint or email or something or other
-    print msg
+    print (msg)
 
 if __name__ == '__main__':
     get_chart("GBP/USD")
